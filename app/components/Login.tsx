@@ -70,13 +70,13 @@ const Login = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
-      <div className="flex flex-col lg:flex-row bg-white shadow-lg rounded-lg w-full lg:w-3/4">
+      <div className="flex flex-col lg:flex-row bg-white shadow-lg rounded-lg w-full lg:w-3/4 overflow-hidden">
         <div className="lg:w-1/2 bg-blue-500 flex flex-col justify-center items-center p-8">
           <h1 className="text-white text-2xl mb-4">Login</h1>
           <p className="text-white text-base mb-8">Get access to your Orders, Wishlist and Recommendations</p>
           <img src="/login_image.png" alt="Login" className="w-3/4 lg:w-1/2" />
         </div>
-        <div className="lg:w-1/2 flex flex-col justify-center items-center p-8">
+        <div className="lg:w-1/2 flex flex-col justify-center items-center p-8 overflow-hidden">
           <form onSubmit={handleLogin} className="w-full max-w-xs">
             <input
               type="email"
@@ -93,7 +93,7 @@ const Login = () => {
             </button>
           </form>
           <p className="mt-4 text-xs">
-            By continuing, you agree to Flipkart's <Link href="/terms"><span className="text-blue-500">Terms of Use</span></Link> and <Link href="/privacy"><span className="text-blue-500">Privacy Policy</span></Link>.
+            By continuing, you agree to Flipkart&apos;s <Link href="/terms"><span className="text-blue-500">Terms of Use</span></Link> and <Link href="/privacy"><span className="text-blue-500">Privacy Policy</span></Link>.
           </p>
           <p className="mt-4">
             <Link href="/signup" className="text-blue-500">New to Flipkart? Create an account</Link>
