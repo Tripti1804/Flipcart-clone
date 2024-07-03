@@ -84,7 +84,7 @@ const categories = [
   { name: 'Appliances', icon: '/appliances.jpeg' },
   { name: 'Travel', icon: '/travel.jpeg' },
   { name: 'Beauty, Toys & More', icon: '/beauty.jpeg' },
-  { name: 'Two Wheelers', icon: '/images/two_wheelers.png' },
+  { name: 'Two Wheelers', icon: '/two_wheelers.jpeg' },
 ];
 
 const subCategories = [
