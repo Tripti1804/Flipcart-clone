@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import { Inter } from 'next/font/google';
-import Header from './components/Header';
 import TopNav from './components/TopNav';
 import Categories from './components/Categories';
 
