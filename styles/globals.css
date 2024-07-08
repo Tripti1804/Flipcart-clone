@@ -72,3 +72,24 @@ footer {
   -ms-overflow-style: none;  
   scrollbar-width: none;  
 }
+
+/* Hide scrollbar for WebKit browsers */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.custom-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@media (max-width: 768px) {
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .flex-1 {
+    width: 100%;
+  }
+}
