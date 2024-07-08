@@ -131,7 +131,7 @@ const Signup = () => {
       await new Promise((resolve) => setTimeout(resolve, 2000));
       localStorage.setItem('userData', JSON.stringify(formData));
       console.log('Signup with:', formData);
-      router.push('/landing?user=Tripti');
+      router.push('/landing');
     } catch (error) {
       console.error('Failed to signup:', error);
     } finally {
