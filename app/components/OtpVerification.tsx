@@ -18,7 +18,7 @@ const OtpVerification: React.FC = () => {
     // Simulate OTP verification
     setTimeout(() => {
       setLoading(false);
-      router.push(`/landing?user=User`);
+      router.push(`/landing`);
     }, 2000); // Simulate a delay for the loading effect
   };
 
