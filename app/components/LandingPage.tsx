@@ -1,13 +1,11 @@
-// app/components/LandingPage.tsx
 "use client";
 import React from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
 
-const LandingPage: React.FC = () => {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const user = searchParams.get('user') || 'User';
+type LandingPageProps = {
+  user: string;
+};
 
+const LandingPage: React.FC<LandingPageProps> = ({ user }) => {
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="bg-blue-500 p-4 flex justify-between items-center">
